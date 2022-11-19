@@ -65,24 +65,39 @@
 // System.Console.WriteLine($"b masalaning javobi: {d}");
 
 
-//4-variant
+// //4-variant
+
+// System.Console.Write("a ni kiriting: ");
+// string aa = System.Console.ReadLine();
+// System.Console.Write("b ni kiriting: ");
+// string bb = System.Console.ReadLine();
+// System.Console.Write("a ni kiriting: ");
+// string tt = System.Console.ReadLine();
+// double a = Convert.ToDouble(aa);
+// double b = Convert.ToDouble(bb);
+// double t = Convert.ToDouble(tt);
+
+// //=>a
+
+// double y = Math.Pow(Math.E,(-(b*t)))*Math.Sin(a*t+b)-Math.Pow(Math.Abs(b*t+a),1/2);
+// System.Console.WriteLine($"a masalaning javobi: {y}");
+
+// //=>b
+
+// double s = b*(Math.Sin(a*Math.Pow(t,2)*Math.Cos(2*t)))-1;
+// System.Console.WriteLine($"b masalaning javobi: {s}");
+
+//=>b
+
+//5-masala
 
 System.Console.Write("a ni kiriting: ");
 string aa = System.Console.ReadLine();
 System.Console.Write("b ni kiriting: ");
 string bb = System.Console.ReadLine();
-System.Console.Write("a ni kiriting: ");
-string tt = System.Console.ReadLine();
-double a = Convert.ToDouble(aa);
-double b = Convert.ToDouble(bb);
-double t = Convert.ToDouble(tt);
-
-//=>a
-
-double y = Math.Pow(Math.E,(-(b*t)))*Math.Sin(a*t+b)-Math.Pow(Math.Abs(b*t+a),1/2);
-System.Console.WriteLine($"a masalaning javobi: {y}");
-
-//=>b
+System.Console.Write("x ni kiriting: ");
+string xx = System.Console.ReadLine();
+double a= double.Parse(System.Console.ReadLine());
 
 double s = b*(Math.Sin(a*Math.Pow(t,2)*Math.Cos(2*t)))-1;
 System.Console.WriteLine($"b masalaning javobi: {s}");
