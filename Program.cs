@@ -91,16 +91,22 @@
 
 //5-masala
 
-System.Console.Write("a ni kiriting: ");
-string aa = System.Console.ReadLine();
-System.Console.Write("b ni kiriting: ");
-string bb = System.Console.ReadLine();
-System.Console.Write("x ni kiriting: ");
-string xx = System.Console.ReadLine();
-double a= double.Parse(System.Console.ReadLine());
+// System.Console.Write("a ni kiriting: ");
+// string aa = System.Console.ReadLine();
+// System.Console.Write("b ni kiriting: ");
+// string bb = System.Console.ReadLine();
+// System.Console.Write("x ni kiriting: ");
+// string xx = System.Console.ReadLine();
+// double a = Convert.ToDouble(aa);
+// double b = Convert.ToDouble(bb);
+// double x = Convert.ToDouble(xx);
 
-double s = b*(Math.Sin(a*Math.Pow(t,2)*Math.Cos(2*t)))-1;
-System.Console.WriteLine($"b masalaning javobi: {s}");
+// // =>a
+// double w = Math.Sqrt(Math.Pow(a,2)+b)-(Math.Pow(b,2)*Math.Pow(Math.Sin(x+a),3))/x;
+// System.Console.WriteLine($"a masalaning javobi: {w}");
+// //=>b
+// double y = Math.Pow(Math.Cos(Math.Pow(x,3)),2)-x/Math.Sqrt(Math.Pow(a,2)+Math.Pow(b,2));
+// System.Console.WriteLine($"b masalaning javobi: {y}");
 
 
 
