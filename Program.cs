@@ -108,6 +108,20 @@
 // double y = Math.Pow(Math.Cos(Math.Pow(x,3)),2)-x/Math.Sqrt(Math.Pow(a,2)+Math.Pow(b,2));
 // System.Console.WriteLine($"b masalaning javobi: {y}");
 
+//6-masala
+
+System.Console.Write("a ni kiriting: ");
+double a = double.Parse(System.Console.ReadLine());
+System.Console.Write("b ni kiriting: ");
+double b = double.Parse(System.Console.ReadLine());
+System.Console.Write("x ni kiriting: ");
+double x = double.Parse(System.Console.ReadLine());
+ //=>a
+ double s = Math.Pow(x,3)*Math.Pow(Math.Tan(Math.Pow(x+b,2)),2)+a/(Math.Sqrt(x+b));
+System.Console.WriteLine($"a masalaning javobi: {s}");
+ //=>b
+ double q = (b*Math.Pow(x,2)-a)/(Math.Pow(Math.E,a*x)-1);
+ System.Console.WriteLine($"b masalaning javobi: {q}");
 
 
 
