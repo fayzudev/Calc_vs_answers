@@ -110,18 +110,46 @@
 
 //6-masala
 
-System.Console.Write("a ni kiriting: ");
-double a = double.Parse(System.Console.ReadLine());
-System.Console.Write("b ni kiriting: ");
-double b = double.Parse(System.Console.ReadLine());
-System.Console.Write("x ni kiriting: ");
-double x = double.Parse(System.Console.ReadLine());
- //=>a
- double s = Math.Pow(x,3)*Math.Pow(Math.Tan(Math.Pow(x+b,2)),2)+a/(Math.Sqrt(x+b));
-System.Console.WriteLine($"a masalaning javobi: {s}");
- //=>b
- double q = (b*Math.Pow(x,2)-a)/(Math.Pow(Math.E,a*x)-1);
- System.Console.WriteLine($"b masalaning javobi: {q}");
+// System.Console.Write("a ni kiriting: ");
+// double a = double.Parse(System.Console.ReadLine());
+// System.Console.Write("b ni kiriting: ");
+// double b = double.Parse(System.Console.ReadLine());
+// System.Console.Write("x ni kiriting: ");
+// double x = double.Parse(System.Console.ReadLine());
+//  //=>a
+//  double s = Math.Pow(x,3)*Math.Pow(Math.Tan(Math.Pow(x+b,2)),2)+a/(Math.Sqrt(x+b));
+// System.Console.WriteLine($"a masalaning javobi: {s}");
+//  //=>b
+//  double q = (b*Math.Pow(x,2)-a)/(Math.Pow(Math.E,a*x)-1);
+//  System.Console.WriteLine($"b masalaning javobi: {q}");
+
+//it will be finished when I have a time
+//----------------------------------------------------------------------------
+
+//qiyinlik darajasi 2-bo'lgan masalalar
+//1-variant
+
+// System.Console.Write("Kvadratning 1-tomonini kiriting: ");
+// double a=double.Parse(System.Console.ReadLine());
+// System.Console.Write("Kvadratning 2-tomoni 1-tomonini necha foizini tashkil etadi: ");
+// double n=double.Parse(System.Console.ReadLine());
+// double b = a*n/100;
+// System.Console.WriteLine($"Kvadratning 20 tomoni {b} ekan");
+// double P=2*(a+b);
+// double S=a*b;
+// System.Console.WriteLine($"Kvadratning perimetri: {P}");
+// System.Console.WriteLine($"Kvadratning yuzi: {S}");
+
+//2-variant
+// int a=5;
+// System.Console.WriteLine($"Kubning yon tarafi yuzi: {a*a}");
+// System.Console.WriteLine($"Kubning yonlari yuzi yig'indisi: {4*a*a}");
+// System.Console.WriteLine($"Kubning hajmi: {a*a*a}");
 
 
+// //3-variant
+// System.Console.Write("Istalgan sonni kiriting: ");
+// double a=double.Parse(System.Console.ReadLine());
+// System.Console.WriteLine($"Kiritlgan son {a} santimetr {0.4*a} dyuym bo\'ladi");
 
+//4-variant
