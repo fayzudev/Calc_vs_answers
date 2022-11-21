@@ -163,11 +163,24 @@
 // System.Console.WriteLine($"Uchburchakning yuzi: {s_3} ga teng");
 
 //5-variant
-System.Console.Write("Radiusni kiriting: ");
-double r = double.Parse(System.Console.ReadLine());
-double s=2*Math.PI*Math.Pow(r,2);
-double v = Math.PI*r*r*r;
-double b = (2/3)*Math.PI*r*r*r;
-System.Console.WriteLine($"Sharning yuzi: {s}");
-System.Console.WriteLine($"Sharning hajmi: {v}");
-System.Console.WriteLine($"Sharning xato chiqyotgan hajmi: {b}");
+// System.Console.Write("Radiusni kiriting: ");
+// double r = double.Parse(System.Console.ReadLine());
+// double s=2*Math.PI*Math.Pow(r,2);
+// double v = Math.PI*r*r*r;
+// double b = (2/3)*Math.PI*r*r*r;
+// System.Console.WriteLine($"Sharning yuzi: {s}");
+// System.Console.WriteLine($"Sharning hajmi: {v}");
+// System.Console.WriteLine($"Sharning xato chiqyotgan hajmi: {b}");
+
+//qiyinlik darajasi 3-bo'lim
+//1-variant
+System.Console.Write("Son kitiring: ");
+decimal m = decimal.Parse(System.Console.ReadLine());
+decimal vershok = 4445/10000*m;
+decimal arshin = 16*vershok;
+decimal sajen = 3*arshin;
+decimal vertsa = 500*sajen;
+System.Console.WriteLine($"1 vershok {vershok} metrga teng");
+System.Console.WriteLine($"1 arshin {arshin} metrga teng");
+System.Console.WriteLine($"1 sajen {sajen} metrga teng");
+System.Console.WriteLine($"1 vertsa {vertsa} metrga teng");
