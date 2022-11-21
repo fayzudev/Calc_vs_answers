@@ -174,13 +174,13 @@
 
 //qiyinlik darajasi 3-bo'lim
 //1-variant
-System.Console.Write("Son kitiring: ");
-decimal m = decimal.Parse(System.Console.ReadLine());
-decimal vershok = 4445/10000*m;
-decimal arshin = 16*vershok;
-decimal sajen = 3*arshin;
-decimal vertsa = 500*sajen;
-System.Console.WriteLine($"1 vershok {vershok} metrga teng");
-System.Console.WriteLine($"1 arshin {arshin} metrga teng");
-System.Console.WriteLine($"1 sajen {sajen} metrga teng");
-System.Console.WriteLine($"1 vertsa {vertsa} metrga teng");
+// System.Console.Write("Son kitiring: ");
+// decimal m = decimal.Parse(System.Console.ReadLine());
+// decimal vershok = 4445/10000*m;
+// decimal arshin = 16*vershok;
+// decimal sajen = 3*arshin;
+// decimal vertsa = 500*sajen;
+// System.Console.WriteLine($"1 vershok {vershok} metrga teng");
+// System.Console.WriteLine($"1 arshin {arshin} metrga teng");
+// System.Console.WriteLine($"1 sajen {sajen} metrga teng");
+// System.Console.WriteLine($"1 vertsa {vertsa} metrga teng");
