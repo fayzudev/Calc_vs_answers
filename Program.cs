@@ -153,3 +153,21 @@
 // System.Console.WriteLine($"Kiritlgan son {a} santimetr {0.4*a} dyuym bo\'ladi");
 
 //4-variant
+// System.Console.Write("1- tomonni kiriting: ");
+// int a = int.Parse(System.Console.ReadLine());
+// System.Console.Write("2- tomonni kiriting: ");
+// int b = int.Parse(System.Console.ReadLine());
+// int s_4=a*b;
+// double s_3=a*b*Math.Sin(Math.PI/2);
+// System.Console.WriteLine($"To\'rtburchakning yuzi: {s_4} ga teng");
+// System.Console.WriteLine($"Uchburchakning yuzi: {s_3} ga teng");
+
+//5-variant
+System.Console.Write("Radiusni kiriting: ");
+double r = double.Parse(System.Console.ReadLine());
+double s=2*Math.PI*Math.Pow(r,2);
+double v = Math.PI*r*r*r;
+double b = (2/3)*Math.PI*r*r*r;
+System.Console.WriteLine($"Sharning yuzi: {s}");
+System.Console.WriteLine($"Sharning hajmi: {v}");
+System.Console.WriteLine($"Sharning xato chiqyotgan hajmi: {b}");
