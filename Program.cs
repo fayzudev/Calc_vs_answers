@@ -123,51 +123,33 @@
 //  double q = (b*Math.Pow(x,2)-a)/(Math.Pow(Math.E,a*x)-1);
 //  System.Console.WriteLine($"b masalaning javobi: {q}");
 
-//it will be finished when I have a time
-//----------------------------------------------------------------------------
 
-//qiyinlik darajasi 2-bo'lgan masalalar
-//1-variant
+ //2-laboratoriya
+ //qiyinlik darajasi 2
 
-// System.Console.Write("Kvadratning 1-tomonini kiriting: ");
-// double a=double.Parse(System.Console.ReadLine());
-// System.Console.Write("Kvadratning 2-tomoni 1-tomonini necha foizini tashkil etadi: ");
-// double n=double.Parse(System.Console.ReadLine());
-// double b = a*n/100;
-// System.Console.WriteLine($"Kvadratning 20 tomoni {b} ekan");
-// double P=2*(a+b);
-// double S=a*b;
-// System.Console.WriteLine($"Kvadratning perimetri: {P}");
-// System.Console.WriteLine($"Kvadratning yuzi: {S}");
+ //1-variant
+//  System.Console.Write("1-kiriting: ");
+//  double a = double.Parse(System.Console.ReadLine());
+//  System.Console.Write("2-kiriting: ");
+//  double b = double.Parse(System.Console.ReadLine());
+//  System.Console.Write("3-kiriting: ");
+//  double c = double.Parse(System.Console.ReadLine());
+//  string message_a=
+//     a >= 0
+//         ? $"1-sonning kvadrati = {Math.Pow(a,2)} ga teng"
+//         : $"1-sonning 4-darajasi {Math.Pow(a,4)}ga teng";
+// System.Console.WriteLine(message_a);
+
+//  string message_b=
+//     b >= 0
+//         ? $"2-sonning kvadrati = {Math.Pow(b,2)} ga teng"
+//         : $"2-sonning 4-darajasi {Math.Pow(b,4)}ga teng";
+// System.Console.WriteLine(message_b);
+
+//  string message_c=
+//     c >= 0
+//         ? $"3-sonning kvadrati = {Math.Pow(c,2)} ga teng"
+//         : $"3-sonning 4-darajasi {Math.Pow(c,4)}ga teng";
+// System.Console.WriteLine(message_c);
 
 //2-variant
-// int a=5;
-// System.Console.WriteLine($"Kubning yon tarafi yuzi: {a*a}");
-// System.Console.WriteLine($"Kubning yonlari yuzi yig'indisi: {4*a*a}");
-// System.Console.WriteLine($"Kubning hajmi: {a*a*a}");
-
-
-// //3-variant
-// System.Console.Write("Istalgan sonni kiriting: ");
-// double a=double.Parse(System.Console.ReadLine());
-// System.Console.WriteLine($"Kiritlgan son {a} santimetr {0.4*a} dyuym bo\'ladi");
-
-//4-variant
-// System.Console.Write("1- tomonni kiriting: ");
-// int a = int.Parse(System.Console.ReadLine());
-// System.Console.Write("2- tomonni kiriting: ");
-// int b = int.Parse(System.Console.ReadLine());
-// int s_4=a*b;
-// double s_3=a*b*Math.Sin(Math.PI/2);
-// System.Console.WriteLine($"To\'rtburchakning yuzi: {s_4} ga teng");
-// System.Console.WriteLine($"Uchburchakning yuzi: {s_3} ga teng");
-
-//5-variant
-System.Console.Write("Radiusni kiriting: ");
-double r = double.Parse(System.Console.ReadLine());
-double s=2*Math.PI*Math.Pow(r,2);
-double v = Math.PI*r*r*r;
-double b = (2/3)*Math.PI*r*r*r;
-System.Console.WriteLine($"Sharning yuzi: {s}");
-System.Console.WriteLine($"Sharning hajmi: {v}");
-System.Console.WriteLine($"Sharning xato chiqyotgan hajmi: {b}");
